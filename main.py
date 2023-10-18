@@ -2,8 +2,9 @@
 If you have access to a SenseHAT (either via a Raspberry Pi or a SenseHAT emulator), you can use the real SenseHAT class instead of the mock SenseHAT class.
 That is, delete the sense_hat.py file that is included in this bundle."""
 import time
-
 from happy import Happy
+from sad import Sad
+
 
 if __name__ == '__main__':
     # This is only needed if you have not deleted sense_hat.py
@@ -30,3 +31,16 @@ if __name__ == '__main__':
     # is defined as an interface (i.e., an abstract base class
     # with an abstract method).
     smiley.blink()
+
+    # Create a sad smiley,
+    sad_smiley = Sad()
+
+    # Show sad smiley
+    sad_smiley.show()
+
+    # Short delay
+    time.sleep(1)
+
+    # sad smiley Blink
+    sad_smiley.blink()
+   
