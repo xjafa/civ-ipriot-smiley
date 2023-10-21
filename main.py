@@ -13,7 +13,7 @@ if __name__ == '__main__':
     # freeze_support()
     ############################################################
 
-    # Create a happy smiley, which is a subclass of Smiley
+    # Create a happy smiley, which is a subclass of smiley
     smiley = Happy()
 
     # This is a form of #polymorphism, as the Happy smiley class
@@ -41,6 +41,5 @@ if __name__ == '__main__':
     # Short delay
     time.sleep(1)
 
-    # sad smiley Blink
+    # Sad smiley blink
     sad_smiley.blink()
-   

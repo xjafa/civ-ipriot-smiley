@@ -12,6 +12,7 @@ class Happy(Smiley, Blinkable):
     Blinkable, this class promises to implement the abstract
     method.See {meth:blink} below.
     """
+
     def __init__(self):
         super().__init__()
 
